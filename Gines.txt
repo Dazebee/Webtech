@@ -1,0 +1,407 @@
+commit 56c959b15577685b37c23aeb72af19d7ddee7fa3
+Author:     Dazebee <148540045+Dazebee@users.noreply.github.com>
+AuthorDate: 2026-11-07 03:45:12 +0000
+Commit:     Dazebee <148540045+Dazebee@users.noreply.github.com>
+CommitDate: 2026-11-07 03:45:12 +0000
+
+    Gines, Meg Cyzarine
+
+diff --git a/Webtech b/Webtech
+new file mode 160000
+index 0000000..2cf8aac
+--- /dev/null
++++ b/Webtech
+@@ -0,0 +1 @@
++Subproject commit 2cf8aac9aebd67fb820479cbde67ca4869552d4c
+diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
+new file mode 100644
+index 0000000..80d73da
+--- /dev/null
++++ b/emmet-laboratory/01-basic.html
+@@ -0,0 +1,19 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <!-- Part 2 -->
++    <h1>Hello</h1>
++    <h2>Hi</h2>
++    <h2>Musta?</h2>
++    <div>k lang</div>
++    <header>ahy</header>
++    <nav>eh?</nav>
++    <main>haha</main>
++    <footer>oh</footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+new file mode 100644
+index 0000000..fa5e1b9
+--- /dev/null
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -0,0 +1,69 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <!-- Part 3 -->
++    <header class="with class"></header>
++    <nav id="with ID"></nav>
++    <main class="with ID"></main>
++    <section class="with ID"></section>
++    <footer id="about" class="content-section"></site-footer>
++
++    <!-- Part 4 -->
++        <ul>
++            <li></li>
++        </ul>
++
++        <nav>
++            <ul>
++                <li></li>
++            </ul>
++        </nav>
++
++        <nav>
++            <ul>
++                <li></li>
++                <li></li>
++                <li></li>
++                <li></li>
++                <li></li>
++            </ul>
++        </nav>
++
++        <h1></h1>
++        <p></p>
++
++        <h1></h1>
++        <h2></h2>
++        <p></p>
++        <p></p>
++
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++
++        <div></div>
++        <div></div>
++        <div></div>
++
++        <p></p>
++        <p></p>
++        <p></p>
++        <p></p>
++        <p></p>
++
++
++        <!-- Part 5 -->
++        <h1>Web Technologies</h1>
++        <p>Welcom to my webpage.</p>
++
++        <h1>My Web Development Journey</h1>
++        <p>I am learning HTML, CSS, JavaScript, and web develoipment</p>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..0377a4f
+--- /dev/null
++++ b/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,71 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++<!-- Part 6 -->
++
++    <ul>
++        <li class="item"></li>
++        <li class="item"></li>
++        <li class="item"></li>
++        <li class="item"></li>
++        <li class="item"></li>
++    </ul>
++
++    <ul>
++        <li>Menu 1</li>
++        <li>Menu 2</li>
++        <li>Menu 3</li>
++        <li>Menu 4</li>
++        <li>Menu 5</li>
++    </ul>
++
++
++    <!-- Part 7 -->
++        <nav>
++            <ul>
++                <li><a href=""></a></li>
++                <li><a href=""></a></li>
++                <li><a href=""></a></li>
++                <li><a href=""></a></li>
++                <li><a href=""></a></li>
++            </ul>
++        </nav>
++
++        <nav>
++            <ul>
++                <li></li>
++                <li></li>
++                <li></li>
++                <li></li>
++                <li></li>
++            </ul>
++        </nav>
++
++        <nav>
++            <ul>
++                <li>Home</li>
++                <li>Abaout</li>
++                <li>Portfolio</li>
++                <li>Sevices</li>
++                <li>Contact</li>
++            </ul>
++        </nav>
++
++  <!-- Part 8 -->
++
++    <input type="text">
++    <input type="text" placeholder="Enter your Name">
++    <input type="email" placeholder="Enter your email">
++    <image src="119ecb0bbe9cea9e4d95f7b0c14cd005.jpg" alt="Profile Photo"></image>
++    <a href="https://www.google.com">google</a> 
++
++
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/04-for..html b/emmet-laboratory/04-for..html
+new file mode 100644
+index 0000000..abf245f
+--- /dev/null
++++ b/emmet-laboratory/04-for..html
+@@ -0,0 +1,74 @@
++<!DOCTYPE html>
++<html lang="en">
++
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<style>
++    .space {
++        margin: 5px;
++        padding-bottom: 15px;
++
++    }
++
++</style>
++
++<body>
++    <!-- Part 9 -->
++    <br><input type="text" name="" id="">
++    <br><input type="email" name="" id="">
++    <br><input type="password" name="" id="">
++    <br><br>
++    <input type="checkbox" name="" id="">
++    <input type="radio" name="" id="">
++    <input type="submit" value="">
++    <br>
++
++    <dir class="space">
++    <br>
++
++        <label for="ID Number">Id Number</label>
++    <br>
++        <input type="string" placeholder="Input ID Number" name="" id="">
++    <br>
++        <label for = "Full Name">Name</label>
++    <br>
++        <input type="text" placeholder="Input Full Name" name="" id="">
++    <br>
++        <label for = "Email">Email</label>
++    <br>
++        <input type="email" placeholder="Input Email" name="" id="">
++    <br>
++        <label for = "Password">Password</label>
++    <br>
++        <input type="password" placeholder="Input Password" name="" id="">
++    <br>
++        <label for = "Gender">Gender</label>
++    <br>
++        <input type="radio" name="gender" id="male" value="Male">
++            <label for="male">Male</label>
++        <input type="radio" name="gender" id="female" value="Female">
++            <label for="female">Female</label>
++        <input type="radio" name="gender" id="others" value="Others">
++            <label for="others">Others</label>
++    <br>
++        <label for = "Course">Course</label>
++    <br>
++        <input type="string" placeholder="Input Course" name="" id="">
++    <br>
++        <label for = "Hobbies">Hobbies</label>
++    <br>
++        <input type="text" placeholder="Input Hobbies" name="" id="">
++
++    <br>
++        <label for = "Address">Address</label>
++    <br>
++        <input type="string" placeholder="Input full Address" name="" id="">
++    <br>
++    <br>
++        <input type="submit" value="Submit">
++    </dir>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/05-sematic.html b/emmet-laboratory/05-sematic.html
+new file mode 100644
+index 0000000..4cd5f66
+--- /dev/null
++++ b/emmet-laboratory/05-sematic.html
+@@ -0,0 +1,47 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <!-- Part 10 -->
++     <header>
++        <h1></h1>
++     </header>
++
++     <nav>
++        <ul>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++        </ul>
++     </nav>
++     <main>
++        <section>
++            <article></article>
++        </section>
++     </main>
++     <footer>
++        <p></p>
++     </footer>
++
++    <!-- Part 11 -->
++     <div class="container">
++        <header>
++            <h1>My Portfolio</h1>
++            <p>Web Developer</p>
++            <nav>
++                <ul>
++                    <li><a href="">Menu 1</a></li>
++                    <li><a href="">Menu 2</a></li>
++                    <li><a href="">Menu 3</a></li>
++                    <li><a href="">Menu 4</a></li>
++                </ul>
++            </nav>
++        </header>
++     </div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..492c30d
+--- /dev/null
++++ b/emmet-laboratory/index.html
+@@ -0,0 +1,12 @@
++<!-- Part 1 -->
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+new file mode 100644
+index 0000000..7f17325
+--- /dev/null
++++ b/emmet-laboratory/portfolio.html
+@@ -0,0 +1,31 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++     <!-- Part 12 -->
++      <div class="container">
++        <header>
++            <h1>Meg Cyzarine Gines</h1>
++            <p>I am a BSIT student majoring in Web</p>
++            <h2>Navigation</h2>
++            <hr>
++            <nav>
++                <ul>
++                    <li>Home</li>
++                    <li>About</li>
++                    <li>Skills</li>
++                    <li>Projects</li>
++                    <li>Contract</li>
++                </ul>
++            </nav>
++            <hr>
++        </header>
++      </div>
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/semantic.html b/semantic.html
+new file mode 100644
+index 0000000..e69de29
+
+commit 5196a638c2ed13f6d7908847b21c99035fb102a5
+Author:     Dazebee <148540045+Dazebee@users.noreply.github.com>
+AuthorDate: 2026-09-15 11:45:42 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-15 11:45:42 +0800
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..fd99687
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1 @@
++# Webtech
+\ No newline at end of file

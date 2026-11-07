@@ -1,31 +1,108 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Student Portfolio</title>
 </head>
 <body>
-     <!-- Part 12 -->
-      <div class="container">
-        <header>
-            <h1>Meg Cyzarine Gines</h1>
-            <p>I am a BSIT student majoring in Web</p>
-            <h2>Navigation</h2>
-            <hr>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Contract</li>
-                </ul>
-            </nav>
-            <hr>
-        </header>
-      </div>
 
+    <!-- Header -->
+    <header>
+        <h1>MEG CYZARINE GINES</h1>
+        <p>Hello! I am a student learning web development.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Profile Photo" width="200">
+            <p>
+                My name is Meg Cyzarine Gines. I am a student interested in
+                technology and web development. I enjoy learning
+                HTML, CSS, JavaScript, and creating websites.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>Git</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <div class="project-card">
+                <h3>Project 1: Personal Website</h3>
+                <p>A simple personal website created using HTML.</p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 2: Student Registration Form</h3>
+                <p>A registration form created using HTML inputs.</p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 3: Portfolio Website</h3>
+                <p>A portfolio showcasing my skills and projects.</p>
+                <a href="#">View Project</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <br><br>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter subject">
+                <br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+                <br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Meg Cyzarine Gines</p>
+    </footer>
 
 </body>
 </html>
